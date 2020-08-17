@@ -22,18 +22,24 @@
   <body>
     <h1>Mad-Libs</h1>
     <script>
-      var animal = prompt("Name a kind of animal");
       var place = prompt("Name a place");
+      var animal = prompt("Name a animal");
+      var recordingartist = prompt("Name a recording artist");
+      var color = prompt("Name a color ");
       var food = prompt("Name a food");
       document.write("Here is a story for you!<br>");
       document.write(
-        "The inconsiderate " +
-          animal +
-          " strode proudly through " +
+        "People that come from " +
           place +
-          ", dropping " +
+          " love watching a " +
+          animal +
+          " dance to " +
+          recordingartist +
+          ". They usually enjoy it while sitting on a " +
+          color +
+          " sofa eating chocolate-covered " +
           food +
-          " everywhere."
+          ". "
       );
     </script>
   </body>
